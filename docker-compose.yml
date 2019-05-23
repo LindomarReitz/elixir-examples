@@ -4,4 +4,4 @@ services:
   elixir:
     image: elixir
     volumes: 
-      - .:/src
+      - ./src:/src

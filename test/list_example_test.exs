@@ -25,4 +25,16 @@ defmodule ListExampleTest do
 
     assert ListExample.tail(list) == ["b", "c"]
   end
+
+  test "returns the size for item" do
+    list = ["a"]
+
+    assert ListExample.size(list) == 1
+  end
+
+  test "returns the size for more than one item" do
+    list = ["a", "b", "c"]
+
+    assert ListExample.size(list) == 3
+  end
 end

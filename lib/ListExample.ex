@@ -7,6 +7,10 @@ defmodule ListExample do
     [list] ++ [value]
   end
 
+  def remove(list, value) do
+    list -- [value]
+  end
+
   def head(list) do
     hd(list)
   end

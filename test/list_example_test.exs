@@ -14,6 +14,12 @@ defmodule ListExampleTest do
     assert ListExample.append(list, "b") == ["a", "b"]
   end
 
+  test "removes an element" do
+    list = ["a", "b", "c"]
+
+    assert ListExample.remove(list, "b") == ["a", "c"]
+  end
+
   test "returns the head" do
     list = ["a", "b", "c"]
 

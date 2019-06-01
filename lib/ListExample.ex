@@ -14,4 +14,8 @@ defmodule ListExample do
   def tail(list) do
     tl(list)
   end
+
+  def size(list) do
+    length(list)
+  end
 end

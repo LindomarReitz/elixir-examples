@@ -2,6 +2,6 @@ version: '3'
 
 services:
   elixir:
-    image: elixir
+    image: elixir:alpine
     volumes: 
       - .:/src

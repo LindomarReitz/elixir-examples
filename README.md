@@ -10,6 +10,5 @@ docker-compose exec elixir bash
 Run the tests:
 
 ```
-cd src
 mix test
 ```

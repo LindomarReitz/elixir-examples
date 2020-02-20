@@ -7,4 +7,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - run: docker-compose up -d
-    - run: docker-compose exec -T cd src && mix test
+    - run: docker-compose exec -T mix test
